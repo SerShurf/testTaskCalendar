@@ -1,0 +1,116 @@
+/*#btnAddEvent {*/
+/*    padding: 5px;*/
+/*    background: #fff745;*/
+/*    border-radius: 3px;*/
+/*    width: 100px;*/
+
+/*}*/
+/*#btnAddEvent:hover {*/
+/*     background: #faeb84;*/
+/* }*/
+
+.btn {
+    padding: 5px;
+    background: #fff745;
+    border-radius: 3px;
+    width: 100px;
+
+}
+.btn:hover {
+    background: #faeb84;
+}
+
+.btnCreate {
+    background: #7dff45;
+}
+
+#table {
+    display: flex;
+    padding: 10px;
+    /*border: 2px solid #4e19ff;*/
+}
+
+.pole {
+    width: 150px;
+    height: 50px;
+    margin: 3px;
+    background: #b288f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pole:hover {
+    background: #dbaeff;
+
+}
+
+.metingTime {
+    background: #219dff;
+}
+
+.metingDay {
+    background: #4e19ff;
+}
+
+#divBg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba( 0, 0, 0, 0.85);
+}
+
+.erorCrate {
+    color: red;
+}
+
+
+
+
+.allMem {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.span {
+    width: 130px;
+    text-align: center;
+}
+.spanCross {
+    width: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spanCross:hover {
+    background: rgba( 0, 0, 0, 0.5);
+}
+
+.spanCross:before, .spanCross:after {
+    position: absolute;
+    content: '|';
+    height: 15px;
+    width: 2px;
+    background-color: #ff0000;
+}
+.spanCross:before {
+    transform: rotate(45deg);
+}
+.spanCross:after {
+    transform: rotate(-45deg);
+}
+
+
+#checkMembers {
+    color: aliceblue;
+}
+
+
+
